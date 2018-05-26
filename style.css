@@ -1,0 +1,235 @@
+#userName{
+    background-color: #4da6ff;
+    color: black;
+    overflow: auto;
+    font-size: 4em;
+
+    height: 70px;
+    border: 2px solid white;
+
+    font-weight: 500;
+    text-align: center;
+    overflow: auto;
+    line-height: 1;
+}
+
+#machineName{
+    background-color: #4da6ff;
+    color: black;
+    overflow: auto;
+    font-size: 4em;
+
+    height: 70px;
+    border: 2px solid white;
+
+    font-weight: 500;
+    text-align: center;
+    overflow: auto;
+    line-height: 1;
+}
+
+
+
+
+/* Main Body */
+body{
+    background-color: #4da6ff;
+}
+
+/* main panel */
+.panel-custom{
+    height: 600px;
+    border: 2px solid #4da6ff;
+    background-color: #4da6ff;
+    margin: 10px;
+}
+/* Human points and smily */
+.inner-panel1{
+    margin-top:15px;
+    height: 160px;
+    border: 2px solid white;
+    background-color: #4da6ff;
+
+}
+
+/* computer points and smily */
+.inner-panel2{
+    margin-top:15px;
+    height: 160px;
+    border: 2px solid white;
+    background-color: #4da6ff;
+}
+
+/* user Input */
+.inner-panel3{
+    margin-top:15px;
+    height: 190px;
+    border: 2px solid white;
+    overflow: auto;
+
+    font-weight: 500;
+    font-size: 5em;
+    text-align: center;
+    padding-top:50px;
+}
+
+/* computer Input */
+.inner-panel4{
+    margin-top:15px;
+    height: 190px;
+    border: 2px solid white;
+    overflow: auto;
+
+    font-weight: 500;
+    font-size: 5em;
+    text-align: center;
+    padding-top:50px;
+
+}
+
+
+/* messages */
+.inner-panel5{
+    margin-top:15px;
+    height: 70px;
+    border: 2px solid white;
+
+    font-weight: 500;
+    font-size: 4em;
+    text-align: center;
+    overflow: auto;
+    line-height: 1;
+}
+
+/*Human points */
+.inner-panel6{
+    margin:10px;
+    margin-left:5px;
+    height: 130px;
+    border: 2px solid white;
+}
+
+/* Human Smily */
+.inner-panel7{
+    margin:10px;
+    margin-left:5px;
+    height: 130px;
+    border: 2px solid white;
+}
+
+/* Computer points */
+.inner-panel8{
+    margin:10px;
+    margin-left:5px;
+    height: 130px;
+    border: 2px solid white;
+}
+
+
+/* Computer Smily */
+.inner-panel9{
+    margin:10px;
+    margin-left:5px;
+    height: 130px;
+    border: 2px solid white;
+}
+
+
+
+/* machine Scores */
+#machineScore{
+    font-weight: 500;
+    font-size: 7em;
+    text-align: center;
+}
+
+/* Human Scores */
+#humanScore{
+    font-weight: 500;
+    font-size: 7em;
+    text-align: center;
+}
+
+/* faces  of happy sad and normal machine and human*/
+#happyHuman{
+    height:100%;
+    width: 70%;
+    padding: 3px;
+    margin-left: 35px;
+    
+}
+#sadHuman{
+    height:100%;
+    width: 70%;
+    padding: 3px;
+    margin-left: 35px;    
+}
+
+#normalHuman{
+    height:100%;
+    width: 70%;
+    padding: 3px;
+    margin-left: 35px;  
+}
+
+#happyMachine{
+    height:100%;
+    width: 70%;
+    padding: 3px;
+    margin-left: 35px;
+    
+}
+#sadMachine{
+    height:100%;
+    width: 70%;
+    padding: 3px;
+    margin-left: 35px;
+    
+}
+#normalMachine{
+    height:100%;
+    width: 70%;
+    padding: 3px;
+    margin-left: 35px;  
+}
+
+/* winner */
+.winner{
+    background-color: green;
+    color: white;
+
+}
+
+/* looser */
+.looser{
+    background-color: red;
+    color: white;
+}
+
+/* same selection */
+.sameSelection{
+    background-color : yellow;
+    color: black;
+}
+
+/* normal ordefault */
+.normal{
+    background-color: white;
+    color: black;
+}
+
+/* Game over class */
+.gameOver{
+    background-color: red;
+    color: white;
+    overflow: auto;
+    font-size: 4em;
+}
+
+
+/* replay button */
+.btn-danger{
+    font-size: 0.4em;
+    font-weight: 500;
+    border: 2px solid white;
+}
