@@ -40,7 +40,7 @@ document.onkeyup = function(event) {
             humanLooser();
             console.log(machineScore + " - Machine : Human - " + humanScore);
             gameTerminator(machineScore,humanScore);
-            if(humanScore > 5 || machineScore > 5){
+            if(humanScore > 10 || machineScore > 10){
                 hideScores();    
             }        
         }
@@ -59,7 +59,7 @@ document.onkeyup = function(event) {
             sameGuess();
             console.log(machineScore + " - Machine : Human - " + humanScore);
             gameTerminator(machineScore,humanScore);
-            if(humanScore > 5 || machineScore > 5){
+            if(humanScore > 10 || machineScore > 10){
                 hideScores();    
             }    
             
@@ -71,7 +71,7 @@ document.onkeyup = function(event) {
             humanWinner();
             console.log(machineScore + " - Machine : Human - " + humanScore);
             gameTerminator(machineScore,humanScore);
-            if(humanScore > 5 || machineScore > 5){
+            if(humanScore > 10 || machineScore > 10){
                 hideScores();    
             }    
             
@@ -83,7 +83,7 @@ document.onkeyup = function(event) {
             humanLooser();
             console.log(machineScore + " - Machine : Human - " + humanScore);
             gameTerminator(machineScore,humanScore);
-            if(humanScore > 5 || machineScore > 5){
+            if(humanScore > 10 || machineScore > 10){
                 hideScores();    
             }    
             
@@ -104,7 +104,7 @@ document.onkeyup = function(event) {
             sameGuess();
             console.log(machineScore + " - Machine : Human - " + humanScore);
             gameTerminator(machineScore,humanScore);
-            if(humanScore > 5 || machineScore > 5){
+            if(humanScore > 10 || machineScore > 10){
                 hideScores();    
             }    
 
@@ -115,7 +115,7 @@ document.onkeyup = function(event) {
             humanWinner();
             console.log(machineScore + " - Machine : Human - " + humanScore);
             gameTerminator(machineScore,humanScore);
-            if(humanScore > 5 || machineScore > 5){
+            if(humanScore > 10 || machineScore > 10){
                 hideScores();    
             }    
             
@@ -127,7 +127,7 @@ document.onkeyup = function(event) {
             humanLooser();
             console.log(machineScore + " - Machine : Human - " + humanScore);
             gameTerminator(machineScore,humanScore);
-            if(humanScore > 5 || machineScore > 5){
+            if(humanScore > 10 || machineScore > 10){
                 hideScores();    
             }              
         }
@@ -275,13 +275,13 @@ function refreshPage(){
 
 //Terminate game when the score is 20
 function gameTerminator(machineScore, humanScore){
-    if((humanScore >= 5) || (machineScore >= 5)){ 
+    if((humanScore >= 10) || (machineScore >= 10)){ 
         gameOver();
     }  
 }
 
 function hideScores(){
-    if((humanScore >= 6) || (machineScore >= 6)){ 
+    if((humanScore >= 11) || (machineScore >=11)){ 
         document.getElementById('humanScore').style.display = 'none';
         document.getElementById('machineScore').style.display = 'none';
         document.getElementById('machineEmoji').style.display='none';
