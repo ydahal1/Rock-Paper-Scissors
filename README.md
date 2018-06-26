@@ -1,2 +1,2 @@
 # rps
-Rock Paper Scissors, a game that have been passed into generations.  I bet you have never seen this game designed this way. Designed with  HTML5, Boostrap and JS. Enjojy the game by clicking [here](https://ydahal1.github.io/Rock-Paper-Scissors/) 
+Rock Paper Scissors, a game that has been passed down to us through the generations. Designed to captivate a digital generation. It is built with HTML-5, and JS. Check the readme page, I have conveniently placed the link to the game there. Enjoy playing rock, paper, scissors with a computer. 
